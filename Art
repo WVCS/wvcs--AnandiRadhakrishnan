@@ -27,8 +27,6 @@ li a:hover {
 <body>
 
 <h2>AP CSP Website</h2>
-  <b> My Art </b>
-<img  src= "artifact.jpg" ></img>
 <ul>
   <li><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
