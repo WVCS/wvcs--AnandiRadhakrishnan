@@ -2,6 +2,28 @@
 <html>
 <head>
 <style>
+ 
+ div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+    
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+  
+
+  
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,14 +48,14 @@ li a:hover {
 </head>
 <body>
 
-<h2>AP CSP Website</h2>
+<h2>About Me!</h2>
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+<div class='scrollmenu' >
+  <a href="Home.html">Home</a>
+<a href="Art.html">Art</a>
+  <a href="Apps.html">Apps</a>
+<a href="About.html">About</a>
+  </div>
 
 </body>
 </html>
